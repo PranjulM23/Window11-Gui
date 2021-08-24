@@ -1,0 +1,203 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{ 
+    background-image: url(Download/bg.jpeg);
+     background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{ 
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 109;
+    user-select: none;
+}
+.taskbar .center{ 
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+}
+.taskbar .center img{ 
+    margin: 5px 5px;
+    width: 3%;
+    height: 3%;
+    object-fit: cover;
+    cursor: pointer;
+    z-index: 999;
+}
+.taskbar .center .fe{ 
+    width: 8%;
+    height: 3%;
+    margin-left: -19px;
+    margin-right: -18px;
+    /* object-fit: cover; */
+}
+.taskbar .center .ms-store{ 
+    width: 4%;
+    height: 4%;
+    margin-top: 6px;
+    margin-left: -10px;
+}
+.taskbar .center .chrome{ 
+    width: 4.4%;
+    height: 4%;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.taskbar .center .vs{ 
+    margin-left: 8px;
+    margin-right: -2px;
+}
+.right{ 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 109;
+}
+
+.strtmenu{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+.hover{ 
+    z-index: 9;
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: -650px;
+    display: flex;
+    background-color: #f3f3f3;
+    transition: all 0.8s ease;
+}
+.img h2{ 
+    position: absolute;
+    left: 13px;
+}
+
+.img img{ 
+    z-index: -999;
+    width: 53%;
+    margin: 10px 25px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+ .img .fe{ 
+    width: 87%;
+    margin-top: 40px;
+}
+.img .vs{ 
+    width: 60%;
+    margin-top: 40px;
+}
+.img .note{ 
+     margin-top: 40px;
+    width: 80%;
+}
+ .img p{ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+ .hover .img .p1{ 
+    width: 100px;
+    /* margin-left: 10px; */
+}
+.img .p2{ 
+    width: 220px;
+}
+.second{ 
+    position: absolute;
+    bottom: 55%;
+    display:flex;
+}
+.second .img{ 
+   width: 25%;
+}
+
+.second .img .note2{ 
+    width: 55%;
+    margin-bottom: -10px;
+}
+.second .img  .p1{ 
+    width:  100px;
+    height: 40px;
+}
+.second .img .fe2{ 
+    width: 65%;
+    margin-left: 9px;
+}
+.second .img .p2{ 
+width: 105px;
+}
+.recent{ 
+    position: absolute;
+    bottom: 30%;
+    left: 3%;
+}
+.img3{ 
+    display: flex;
+}
+.img2 .vs{ 
+    width: 35%;
+    
+}
+
+
+.img2 .p5{ 
+    /* width: 90px; */
+    margin-left: -1px;
+}
+.user{ 
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+}
+.user i{ 
+    font-size: 90px;
+}
+
+.hs{ 
+    /* margin: 10px 20px; */
+    width: 100%;
+    height: 100vh;
+    user-select: none;
+}
+.Home img{ 
+    width: 3%;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.Home p{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 90px;
+    font-size: 15px;
+}
+.Homep{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 90px;
+    font-size: 15px;
+}
+.Home a{ 
+    text-decoration: none;
+    margin-left: -3px;
+}
+.Home .chrome_home{ 
+    width: 5%;
+    margin-left: 10px;
+}
